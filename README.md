@@ -18,6 +18,7 @@ It provides following features:
 - Extends Webdriver by additional methods like JavaScriptClick, WaitForAjax, WaitForAngular, etc., more details [here](http://objectivityltd.github.io/Test.Automation/html/0872cc4d-63cc-c3d2-30e5-1f8debf56860.htm)
 - Automatically waits when locating element for specified time and conditions, more details [here](http://objectivityltd.github.io/Test.Automation/html/6b3a28a9-75c6-bda7-e44e-962f1e91c477.htm)
 - Page Object Pattern
+- Support for AngularJS
 - Support for SeleniumGrid, more details [here](https://github.com/ObjectivityLtd/Test.Automation/wiki/Selenium-Grid-support)
 - More common locators, e.g: ```"//*[@title='{0}' and @ms.title='{1}']"```, more details [here](https://github.com/ObjectivityLtd/Test.Automation/wiki/More%20common%20locators)
 - Several methods to interact with kendo controls, more details [here](https://github.com/ObjectivityLtd/Test.Automation/wiki/Interact%20with%20kendo%20controls)
