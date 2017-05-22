@@ -133,7 +133,7 @@ namespace Objectivity.Test.Automation.Common
         /// <summary>
         /// Gets driver Handle
         /// </summary>
-        [SuppressMessage("Microsoft.Design", "CS3003:Typeof'DriverContext.Driver'isnotCLS-compliant", Justification = "Ignore that error")]
+        [SuppressMessage("Microsoft.Design", "CS3003: Type of 'DriverContext.Driver' is not CLS-compliant", Justification = "Ignore that error")]
         public NgWebDriver Driver
         {
             get
