@@ -64,7 +64,7 @@
           </targets>
         </configuration>
       </PlugInConfig>
-    </PlugInConfigurations>
+<PlugInConfig id="Assembly Binding Redirection" enabled="True"><configuration useGAC="false"><assemblyBinding /><ignoreIfUnresolved><assemblyIdentity name="BusinessObjects.Licensing.KeycodeDecoder" /><assemblyIdentity name="Microsoft.VisualStudio.TestTools.UITest.Playback" /><assemblyIdentity name="WebDriver" /></ignoreIfUnresolved></configuration></PlugInConfig></PlugInConfigurations>
     <ApiFilter>
       <Filter entryType="Namespace" fullName="Objectivity.Test.Automation.Common.Logger" isExposed="False" xmlns="">
         <Filter entryType="Class" fullName="Objectivity.Test.Automation.Common.Logger.TestLogger" filterName="TestLogger" isExposed="True" />
