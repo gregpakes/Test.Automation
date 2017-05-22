@@ -55,6 +55,7 @@ namespace Objectivity.Test.Automation.Tests.PageObjects.PageObjects.TheInternet
         public InternetPage OpenHomePage()
         {
             var url = BaseConfiguration.GetUrlValue;
+            this.Driver.IgnoreSynchronization = true;
             this.Driver.NavigateTo(new Uri(url));
             Logger.Info(CultureInfo.CurrentCulture, "Opening page {0}", url);
             return this;

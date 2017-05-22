@@ -71,6 +71,7 @@ namespace Objectivity.Test.Automation.Tests.PageObjects.PageObjects.Kendo
         public KendoComboBoxPage Open()
         {
             this.Driver.NavigateTo(this.url);
+            this.Driver.IgnoreSynchronization = true;
             return this;
         }
 
